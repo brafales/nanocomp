@@ -19,5 +19,5 @@ The project was supervised by [Josep Carmona][], as a member of the
   [wxWidgets]: http://wxwidgets.org/
   [Josep Carmona]: http://www.lsi.upc.edu/~jcarmona/
   [GAVINA]: http://www.lsi.upc.es/~jordicf/gavina/gavina.html
-  [doxygen]: https://raw.github.com/brafales/nanocomp/master/README.md
-  [User manual]: https://raw.github.com/brafales/nanocomp/master/README.md
+  [Doxygen documentation]: http://thinkingeek.com/wp-content/uploads/nanocomp/documentation/index.html
+  [User manual]: http://thinkingeek.com/wp-content/uploads/nanocomp/manual/index.html
