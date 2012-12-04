@@ -1,0 +1,5 @@
+base referer
+rect $classLayoutManager.html#5cd4a42ec42f785ea142e49dfcf8b467 222,32 452,56
+rect $classMainController.html#c8039addc2196fd7a736cdc68f63028a 501,32 725,56
+rect $classRuleManager.html#7bd7a9d7bb99c9c04ab78680561e57f2 773,8 952,32
+rect $classNanoFrame.html#41c7b07f6c715e36b551c32675abbae4 786,56 938,80

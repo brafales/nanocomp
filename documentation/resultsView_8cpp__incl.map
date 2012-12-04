@@ -1,0 +1,5 @@
+base referer
+rect $resultsView_8hpp.html 431,106 546,130
+rect $nanoStatusBar_8hpp.html 421,179 557,203
+rect $layoutCanvas_8hpp.html 621,58 749,82
+rect $simulationManager_8hpp.html 605,106 765,130

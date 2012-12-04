@@ -1,0 +1,4 @@
+base referer
+rect $forbiddenPatternManager_8hpp.html 480,8 928,32
+rect $forbiddenPatternView_8cpp.html 492,56 916,80
+rect $nanoFrame_8cpp.html 522,104 885,128

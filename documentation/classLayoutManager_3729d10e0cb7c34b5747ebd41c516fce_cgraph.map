@@ -1,0 +1,4 @@
+base referer
+rect $classLayoutConfig.html#0c40064e2599ca832299e2156ebba96b 260,8 412,32
+rect $classLayoutView.html#1a2608b3995f1fbae108fbe414edb120 250,56 421,80
+rect $classLayoutCanvas.html#bc91c37963246b46e79cc35e98e02926 469,56 626,80

@@ -1,0 +1,5 @@
+base referer
+rect $classTruthTableDiskManager.html 210,190 373,214
+rect $classMainController.html 22,190 129,214
+rect $classTruthTableView.html 428,190 542,214
+rect $classFileManagerView.html 38,9 161,33

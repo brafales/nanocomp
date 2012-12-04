@@ -1,0 +1,8 @@
+base referer
+rect $classRuleManager.html#775c93cb3805b506a4e2383c7bacb875 192,56 352,80
+rect $classRuleManager.html#2bf41da07536f99283e0fc6505eddbfa 401,8 580,32
+rect $classRuleView.html#b57a568bd79b37d40e2cb18e5dc621c6 416,56 565,80
+rect $classRuleManager.html#53e22a4b18fd3246c28c9ba8324acd9d 412,104 569,128
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 634,8 850,32
+rect $classFileManagerView.html#df632316c656ea972020e81716d75ce4 629,80 856,104
+rect $classRuleDiskManager.html#51f0b9be377a945fe310baa947aee995 644,128 841,152

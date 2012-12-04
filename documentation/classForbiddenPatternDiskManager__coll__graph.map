@@ -1,0 +1,5 @@
+base referer
+rect $classForbiddenPatternManager.html 102,100 278,124
+rect $classMainController.html 224,190 330,214
+rect $classForbiddenPatternView.html 8,190 160,214
+rect $classFileManagerView.html 301,9 424,33

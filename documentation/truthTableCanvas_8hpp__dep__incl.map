@@ -1,0 +1,5 @@
+base referer
+rect $layoutView_8hpp.html 480,8 840,32
+rect $truthTableView_8hpp.html 468,56 852,80
+rect $truthTableView_8cpp.html 910,81 1294,105
+rect $truthTableCanvas_8cpp.html 460,154 860,178

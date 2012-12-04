@@ -1,0 +1,3 @@
+base referer
+rect $forbiddenPattern_8cpp.html 479,8 874,32
+rect $forbiddenPatternManager_8hpp.html 453,56 901,80

@@ -1,0 +1,5 @@
+base referer
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 238,32 454,56
+rect $classLayoutManager.html#b947e691618bfa18e4113caa0dab0f65 504,32 728,56
+rect $classLayoutView.html#4a7e0bb638fcb5e0df2ede0a5d152fb0 777,8 1014,32
+rect $classLayoutView.html#74b42a281c84976c68695d800c788fa9 781,56 1010,80

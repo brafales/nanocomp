@@ -1,0 +1,3 @@
+base referer
+rect $classNanoFrame.html 33,9 124,33
+rect $classMainController.html 90,100 197,124

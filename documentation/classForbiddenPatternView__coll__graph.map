@@ -1,0 +1,7 @@
+base referer
+rect $classForbiddenPatternManager.html 134,294 310,318
+rect $classLayoutCanvas.html 186,113 293,137
+rect $classGrid.html 217,9 262,33
+rect $classMainController.html 54,385 161,409
+rect $classForbiddenPatternDiskManager.html 273,385 476,409
+rect $classFileManagerView.html 8,204 130,228

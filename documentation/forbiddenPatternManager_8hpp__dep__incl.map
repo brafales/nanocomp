@@ -1,0 +1,7 @@
+base referer
+rect $forbiddenPatternDiskManager_8hpp.html 503,7 978,31
+rect $forbiddenPatternView_8hpp.html 529,55 953,79
+rect $layoutManager_8hpp.html 549,178 933,202
+rect $mainController_8hpp.html 1026,127 1410,151
+rect $simulationManager_8hpp.html 1459,153 1867,177
+rect $forbiddenPatternManager_8cpp.html 517,277 965,301

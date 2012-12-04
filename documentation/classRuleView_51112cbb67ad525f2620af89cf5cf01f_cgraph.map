@@ -1,0 +1,8 @@
+base referer
+rect $classRuleManager.html#38e6336c70dfb9ff573074273db4228f 190,32 372,56
+rect $classLayoutCanvasEvent.html#ed65876c331bb9d0747e2b0d06000c5e 193,80 369,104
+rect $classLayoutCanvasEvent.html#8f606e2550905156dda422369d249cd9 193,128 369,152
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 422,8 638,32
+rect $classRuleManager.html#ca5eeeedae2ddf61a17d97f695a3eae2 440,56 621,80
+rect $classLayoutManager.html#b947e691618bfa18e4113caa0dab0f65 688,8 912,32
+rect $classRuleView.html#c33e6c9a61c6f25802a40af1f479a133 721,56 878,80

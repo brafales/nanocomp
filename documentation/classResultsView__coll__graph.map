@@ -1,0 +1,4 @@
+base referer
+rect $classSimulationManager.html 63,203 199,227
+rect $classLayoutCanvas.html 7,9 114,33
+rect $classTruthTableCanvas.html 138,9 269,33

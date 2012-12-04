@@ -1,0 +1,11 @@
+base referer
+rect $classTruthTableManager.html 172,190 310,214
+rect $classTruthTableDiskManager.html 289,281 452,305
+rect $classMainController.html 318,372 425,396
+rect $classSimulationManager.html 344,553 480,577
+rect $classLayoutManager.html 528,281 642,305
+rect $classNanoFrame.html 82,462 173,486
+rect $classRuleManager.html 638,462 740,486
+rect $classForbiddenPatternManager.html 438,462 614,486
+rect $classFileManagerView.html 554,100 677,124
+rect $classTruthTableCanvas.html 176,9 306,33

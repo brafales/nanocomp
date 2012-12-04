@@ -1,0 +1,7 @@
+base referer
+rect $classLayoutConfig.html#0c40064e2599ca832299e2156ebba96b 297,8 449,32
+rect $classLayoutConfig.html#b479d055d834889ad7dd77a895dff21e 290,56 456,80
+rect $classLayoutConfig.html#44ea1c49a153813b0c7b016a0629c50f 293,104 453,128
+rect $classLayoutDiskManager.html#84706b11f77524d83d1e932b0e9b0aef 273,152 473,176
+rect $classGrid.html#509082e18b37f4751223142672b9f811 522,128 634,152
+rect $classGrid.html#d462aaf5448b0b69930d0a6fa1a4d34f 525,176 632,200

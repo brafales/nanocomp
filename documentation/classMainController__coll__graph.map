@@ -1,0 +1,8 @@
+base referer
+rect $classNanoFrame.html 537,226 628,250
+rect $classSimulationManager.html 1057,238 1193,262
+rect $classTruthTableManager.html 513,332 652,356
+rect $classLayoutManager.html 802,382 917,406
+rect $classRuleManager.html 532,528 633,552
+rect $classForbiddenPatternManager.html 494,157 670,181
+rect $classFileManagerView.html 9,416 132,440

@@ -1,0 +1,7 @@
+base referer
+rect $forbiddenPattern_8hpp.html 377,8 772,32
+rect $layoutCanvas_8hpp.html 386,56 762,80
+rect $simulationView_8hpp.html 822,81 1206,105
+rect $rule_8hpp.html 416,154 733,178
+rect $layoutConfig_8hpp.html 389,202 760,226
+rect $grid_8cpp.html 416,250 733,274

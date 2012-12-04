@@ -1,0 +1,4 @@
+base referer
+rect $forbiddenPatternView_8hpp.html 480,82 656,106
+rect $layoutCanvas_8hpp.html 740,58 868,82
+rect $forbiddenPatternManager_8hpp.html 705,106 902,130

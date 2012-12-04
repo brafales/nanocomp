@@ -1,0 +1,8 @@
+base referer
+rect $nanoFrame_8hpp.html 451,8 566,32
+rect $ruleView_8hpp.html 459,56 558,80
+rect $forbiddenPatternView_8hpp.html 421,104 597,128
+rect $layoutView_8hpp.html 453,152 565,176
+rect $truthTableView_8hpp.html 441,200 577,224
+rect $nanoStatusBar_8hpp.html 441,488 577,512
+rect $mainController_8hpp.html 646,8 779,32

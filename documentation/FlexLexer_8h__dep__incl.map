@@ -1,0 +1,6 @@
+base referer
+rect $forbiddenPatternDiskManager_8hpp.html 397,8 872,32
+rect $ruleDiskManager_8hpp.html 436,56 833,80
+rect $truthTableDiskManager_8hpp.html 417,104 852,128
+rect $layoutDiskManager_8hpp.html 429,152 840,176
+rect $lex_8nanocomp_8cpp.html 445,200 824,224

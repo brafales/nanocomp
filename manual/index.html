@@ -1,0 +1,371 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+
+  
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+
+
+  
+  
+  <title>NanoComp user manual</title>
+</head>
+
+
+<body>
+
+
+<div style="text-align: center;">
+<h1>NanoComp</h1>
+
+<h2>User Manual</h2>
+
+</div>
+
+<h2><a name="Introduction"></a>Introduction</h2>
+
+
+<p class="Estilo1" align="left">NanoComp is a visual and interactive simulator of <a href="http://www.almaden.ibm.com/st/exploratory_technology/mc/">molecule cascades</a>. It has been developed by Bernat R&agrave;fales Mulet as a final degree project for Computer Science at the <a href="http://www.fib.upc.edu/">Facultat d'Inform&agrave;tica de Barcelona</a>, <a href="http://www.upc.edu/">Universitat Polit&egrave;cnica de Catalunya</a>.</p>
+
+
+
+  
+<p class="Estilo1" align="left">The program is released under the <a href="http://www.gnu.org/copyleft/gpl.html">GNU/GPL</a> license. It has been written in C++ and uses the <a href="http://wxwidgets.org/">wxWidgets</a> library. </p>
+
+
+
+  
+<p class="Estilo1" align="left">The project was supervised by <a href="http://www.lsi.upc.edu/%7Ejcarmona/">Josep Carmona</a>, as a member of the <a href="http://www.lsi.upc.es/%7Ejordicf/gavina/gavina.html">GAVINA</a> (Group on
+Algorithms for VLSI Design Automation) group.</p>
+
+
+
+  
+<p class="Estilo1" align="left">Here you'll find the source file to compile the program, a user manual, a link to the CVS and the <a href="http://www.stack.nl/%7Edimitri/doxygen/">doxygen</a> documentation of the source code.</p>
+
+
+<p class="Estilo1" align="left">This is the user manual for the
+program. It starts with a full example showing what the program can do.
+All the other features are exaplained lately. </p>
+
+
+<h2><a name="Learning_by_example"></a>Learning by example</h2>
+
+
+We'll see a full example of a molecule cascade simulation. The logic
+gate we'll implement is a simple fork. A fork is a duplication of an
+input into more than one outputs.<br>
+
+
+<br>
+
+
+The first thing we should do is start the program. You should see a window like this one:<br>
+
+
+<br>
+
+
+<img style="width: 802px; height: 476px;" alt="NanoComp main window" title="NanoComp main window" src="images/mainwindow.png"><br>
+
+
+<br>
+
+
+First of all, we will create the main rule that the simulation will
+use. Rules are pairs of configurations. When simulating, if the initial
+configuration is found on the space, the rule is applied, and the
+configuration becomes the final one.<br>
+
+
+<br>
+
+
+To create a rule, you must click on the "Add a new rule button"&nbsp;<img style="width: 27px; height: 26px;" alt="New rule button" src="images/new.png">.
+After that, you must enter the width and the height of the rule. We
+will create a typical rule in molecule cascades, a chevron. The chevron
+is a 3x3 rule, so we will input a width and height values of 3, as
+shown in those figures:<br>
+
+
+<br>
+
+
+<img style="width: 329px; height: 152px;" alt="Input the rule width" src="images/rulewidth.png"><br>
+
+
+<br>
+
+
+<img style="width: 336px; height: 152px;" alt="Input the rule height" src="images/ruleheight.png"><br>
+
+
+<br>
+
+
+After that, an empty rule will be created. Our job is to modify it to
+meet our requirements. Modifying the rule is as simple as clicking on
+the cell point we want to change. The initial rule will be shown as
+this:<br>
+
+
+<br>
+
+
+<img style="width: 802px; height: 476px;" alt="A rule after its creation" src="images/emptyrule.png"><br>
+
+
+<br>
+
+
+As you can see, we have two 3x3 grids. Those little points are empty
+cells. To modify them, we must click on them. It's status will change
+with every click, so we must click the cell as many times as necessary
+until it has the status we want.<br>
+
+
+<br>
+
+
+We will start by modifying the left grid. This is the initial
+configuration of the rule, and the pattern that will be searched in the
+simulation. Click on each of the cells until you have this:<br>
+
+
+<br>
+
+
+<img style="width: 802px; height: 476px;" alt="Initial rule configuration" src="images/leftrule.png"><br>
+
+
+<br>
+
+
+Now we have two ways to configure the right grid. We could just do the
+same we 've already done, but there is a faster way: clicking on the
+arrow button <img style="width: 26px; height: 25px;" alt="Copy rule button" src="images/copyRule.png">
+all the cells on the left configuration will be copied to the right
+one, so we will only have to modify the cells that actually differ from
+configurations. Using the method you like, modify the final
+configuration until you have this result:<br>
+
+
+<br>
+
+
+<img style="width: 802px; height: 476px;" alt="Rule completed" src="images/bothrules.png"><br>
+
+
+<br>
+
+
+Now we should create the forbidden pattern. To do so, we must click on
+the "Forbidden Patterns" tab. We will see a screen like this one:<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Forbidden Pattern tab" src="images/patternview.png"><br>
+
+
+<br>
+
+Just like we did for the rules, create a new forbidden pattern of size 3x3 and change its cells until you get this:<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Forbidden pattern configured" src="images/pattern.png"><br>
+
+<br>
+
+Time to configure the truth table. Click on the Truth Tables tab and
+then on the new truth table button. This time you'll be asked for three
+parameters rather than two: the table name, the table number of inputs
+and the table number of outputs. As we are building a fork table, you
+can name the table "Fork". The table will have one input and two
+outputs, which will have to be the same value as the input:<br>
+
+<br>
+
+<img style="width: 338px; height: 159px;" alt="Table name" src="images/tablename.png"><br>
+
+<br>
+
+<img style="width: 362px; height: 152px;" alt="Table inputs" src="images/tableinputs.png"><br>
+
+<br>
+
+<img style="width: 372px; height: 152px;" alt="Table outputs" src="images/tableoutputs.png"><br>
+
+<br>
+
+The table will be created and you'll see a screen like this one:<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Table created" src="images/table.png"><br>
+
+<br>
+
+As you can see, the table input combinations are already calculated by
+the program. You only have to worry to configure the correct outputs
+for each of the possible input combination. As we've said, this is a
+fork, so the output values should match the input values. That means
+that the two "False" values from the 2nd row must be changed to "True".
+The way to do this is the same as we did for the cells: just click on
+the cell you want to change and voil&agrave;... it'll change. Do this
+until you get the two values to "True" as shown here:<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Table configured" src="images/tablefork.png"><br>
+
+<br>
+
+And now for the final configuration tab, the "Layouts and Simulation"
+tab. Click on the new Space button and select a 5x5 space. Select 1
+input and 2 outputs, the same we did when creating the table. Now
+change the space cells to fit those shown in this figure:<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Space configured" src="images/spaceandcheck.png"><br>
+
+<br>
+
+As you can see in the figure, the Fork table checkbox is checked. Check
+it in your window too. This check will ensure that the fork table is
+the one we are going to simulate. In the same way, the rule and pattern
+we created will be automatically checked. Uncheck them if you don't
+want them to be applied at the simulation.<br>
+
+<br>
+
+Now that we have the space created and the table checked, there is only
+one thing left to do: assign the inputs and outputs to the space. To do
+this, you have to select the input/output you want to assign and then
+click on the corresponding <img style="width: 26px; height: 25px;" alt="Assign button" src="images/copyRule.png"> button. When you do this, the window will change like this (for an input):<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Assigning an input" src="images/assigninput.png"><br>
+
+<br>
+
+At this moment, only the input cells will be available to click. When
+you click on the cell, the input selected will be assigned there. If
+you want to go back and not assign the input, just press the "Escape
+key".<br>
+
+<br>
+
+Now, assign the input and the outputs. As we only have an input and
+both outputs share the values, its not important where you assign in.
+The final window should look like this:<br>
+
+<br>
+
+<img style="width: 802px; height: 476px;" alt="Final configuration" src="images/spacefinal.png"><br>
+
+<br>
+
+Now we are ready to simulate. Clicking on the "Check simulation" button
+will check everything to ensure the simulation can start. Click it, and
+then click on the "Begin simulation" button to actually start the
+simulation. You'll see this window:<br>
+
+<br>
+
+<img style="width: 1024px; height: 721px;" alt="Simulation window" src="images/simulation.png"><br>
+
+<br>
+
+You can simulate in three different ways:<br>
+
+<ul>
+
+  <li>Automated simulation</li>
+
+  <li>Step by step simulation</li>
+
+  <li>All in one step simulation</li>
+
+</ul>
+
+The automated simulation will execute simulation steps automatically
+every second. You'll have to manually change rows, though. It's started
+and paused clicking on the left button.<br>
+
+<br>
+
+The step by step simulation is fully manual. You have to execute the steps manually by clicking the middle button.<br>
+
+<br>
+
+The all in one step simulation will execute all the steps of every
+table row without any king of user interaction. It's started with the
+right button.<br>
+
+<br>
+
+To see the simulator in action, press the automated simulation button
+and watch. When a row finishes its execution, the simulation will stop
+and ask you to simulate the next row; press the "Simulate next row" to
+do so:<br>
+
+<br>
+
+<img style="width: 1024px; height: 721px;" alt="Next row button" src="images/nextrow.png"><br>
+
+<br>
+
+After that, press the automated simulation button again to begin the simulation of the new row.<br>
+
+<br>
+
+After all rows have been simulated, the "Show results" button will be enabled; click on it to see the results of the simulation:<br>
+
+<br>
+
+<img style="width: 1024px; height: 721px;" alt="Show results button" src="images/showresults.png"><br>
+
+<br>
+
+After pressing the button, the results view will be shown on the screen:<br>
+
+<br>
+
+<img style="width: 1024px; height: 721px;" alt="Results view" src="images/results.png"><br>
+<br>
+The results view shows four quarters:<br>
+<ul>
+  <li>The simulation information provides information about the simulation steps os every row of the table.</li>
+  <li>The truth table provides the truth table that has been simulated.</li>
+  <li>The simulation step shows the simulation step selected in the simulation information.</li>
+  <li>The initial configuration shows the initial space of the simulation with it's inputs and outputs.</li>
+</ul>
+Only the simulation information quarter is interactive. The results of
+what you choose there will be shown in the simulation step.<br>
+<br>
+The simulation information provides three columns:<br>
+<ul>
+  <li>The first column contains all the rows of the table. Showing if
+they were verified or not. Choosing one of the rows, the information on
+the middle column will be updated.</li>
+  <li>The middle column contains all the final status the simulation
+has reached for the row. If it found a forbidden pattern or an out of
+bounds rule, only that information will be shown. If not, it will show
+all the stable spaces and cycles reached by the simulation. Selecting
+one of the rows of that list, the right column will be updated.</li>
+  <li>The last column contains all the simulation trace that lead to
+the information you selected on the middle column. By selecting any of
+the steps, the space of the step will be shown in the simulation step
+quarter.</li>
+</ul>
+
+</div>
+
+
+</body>
+</html>

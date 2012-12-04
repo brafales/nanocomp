@@ -1,0 +1,4 @@
+base referer
+rect $ruleManager_8hpp.html 406,8 777,32
+rect $nanoFrame_8cpp.html 410,56 773,80
+rect $ruleView_8cpp.html 418,104 765,128

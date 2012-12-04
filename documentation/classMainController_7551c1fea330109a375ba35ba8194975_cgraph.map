@@ -1,0 +1,7 @@
+base referer
+rect $classLayoutManager.html#795c7e57b9a2465317a9ad8facd6e8a8 250,8 405,32
+rect $classTruthTableManager.html#ccb75d8a01abca25f6ed2958c5b7b69f 238,56 417,80
+rect $classForbiddenPatternManager.html#51c7d1b23a943966d7aac0fdfbd48480 220,104 436,128
+rect $classRuleManager.html#cb91481918df6e9ee0913e73c79472b5 257,152 398,176
+rect $classMainController.html#06797caf7960caaa8276b30ee488eb1d 256,200 400,224
+rect $classNanoFrame.html#a1b800d8c12bf6e3525781f84d08f82b 486,225 649,249

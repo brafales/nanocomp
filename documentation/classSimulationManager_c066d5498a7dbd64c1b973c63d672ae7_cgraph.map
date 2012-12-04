@@ -1,0 +1,5 @@
+base referer
+rect $classLayoutManager.html#d7565c1f5291b7b15c15452152c2e980 285,8 466,32
+rect $classLayoutConfig.html#fac09eb0dedffae6c4db19d3365b9bce 294,56 457,80
+rect $classSimulationManager.html#baccce0f5efbb391da349f4056cdeacb 278,104 473,128
+rect $classGrid.html#f24551b887636374c76361ee59729474 524,56 625,80

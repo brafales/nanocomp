@@ -1,0 +1,14 @@
+base referer
+rect $classLayoutManager.html#fcadca4a8a6a4cd597ddec94357a7572 204,224 398,248
+rect $classLayoutCanvasEvent.html#ed65876c331bb9d0747e2b0d06000c5e 213,272 389,296
+rect $classLayoutCanvasEvent.html#8f606e2550905156dda422369d249cd9 213,320 389,344
+rect $classLayoutConfig.html#cefc8a4f8837d3dca6d6c2c85c17e4dc 470,8 652,32
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 453,56 669,80
+rect $classLayoutManager.html#9a67af639b17815a782690a357078d9c 458,104 664,128
+rect $classLayoutView.html#094de846a1378c6226e612946b06f511 480,152 642,176
+rect $classLayoutManager.html#d75a1bc97c8f6449f30ab497ae78e423 454,200 668,224
+rect $classMainController.html#24fe9845010a910ee29041ef3cb8d6cd 448,248 674,272
+rect $classLayoutView.html#05d48d7881ddc4ea02bc8daf1f14acf5 469,296 653,320
+rect $classLayoutManager.html#3729d10e0cb7c34b5747ebd41c516fce 464,344 658,368
+rect $classLayoutView.html#7ee0e539d7b2d9fca5b49f0130575f31 473,392 649,416
+rect $classLayoutView.html#b04d9fb6c4c18a491748003fd0774147 468,440 654,464

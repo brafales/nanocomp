@@ -1,0 +1,5 @@
+base referer
+rect $classLayoutView.html#f3e2e141dc567ef717db3f6da1ccbf09 266,8 418,32
+rect $classFileManagerView.html#df632316c656ea972020e81716d75ce4 229,56 456,80
+rect $classLayoutDiskManager.html#e0abce1933253110f26983a7a819fbed 234,104 450,128
+rect $classFileManagerView.html#246ca5520a5871083ac0a475b1574068 504,56 698,80

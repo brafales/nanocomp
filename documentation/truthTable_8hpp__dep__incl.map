@@ -1,0 +1,4 @@
+base referer
+rect $truthTableCanvas_8hpp.html 417,8 820,32
+rect $truthTableManager_8hpp.html 414,56 822,80
+rect $truthTable_8cpp.html 441,104 796,128

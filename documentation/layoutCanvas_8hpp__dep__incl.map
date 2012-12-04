@@ -1,0 +1,7 @@
+base referer
+rect $forbiddenPatternView_8hpp.html 434,8 858,32
+rect $ruleView_8hpp.html 473,56 820,80
+rect $layoutView_8hpp.html 466,104 826,128
+rect $simulationView_8hpp.html 454,152 838,176
+rect $resultsView_8hpp.html 464,200 829,224
+rect $layoutCanvas_8cpp.html 458,248 834,272

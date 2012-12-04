@@ -1,0 +1,7 @@
+base referer
+rect $classRuleManager.html 146,308 247,332
+rect $classLayoutCanvas.html 171,113 278,137
+rect $classGrid.html 202,9 247,33
+rect $classMainController.html 57,398 163,422
+rect $classRuleDiskManager.html 235,398 363,422
+rect $classFileManagerView.html 7,217 130,241

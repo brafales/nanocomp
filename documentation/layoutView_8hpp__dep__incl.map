@@ -1,0 +1,4 @@
+base referer
+rect $layoutManager_8hpp.html 419,8 803,32
+rect $layoutView_8cpp.html 431,56 791,80
+rect $nanoFrame_8cpp.html 430,104 793,128

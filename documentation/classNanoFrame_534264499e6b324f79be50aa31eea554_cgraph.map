@@ -1,0 +1,12 @@
+base referer
+rect $classMainController.html#4407f7612459130e3b111f0cc7dd3fb0 221,153 381,177
+rect $classLayoutManager.html#531fdbdbd80bda32edfc4f3bb9c8646b 461,56 632,80
+rect $classFileManagerView.html#df632316c656ea972020e81716d75ce4 730,153 957,177
+rect $classTruthTableManager.html#e2482c041c2f1a1e85bdb98b94e9c8be 449,104 644,128
+rect $classForbiddenPatternManager.html#56c224b105430d4d8fab7a190fa0e4dc 429,202 664,226
+rect $classRuleManager.html#53e22a4b18fd3246c28c9ba8324acd9d 468,250 625,274
+rect $classLayoutView.html#f3e2e141dc567ef717db3f6da1ccbf09 768,8 920,32
+rect $classLayoutDiskManager.html#e0abce1933253110f26983a7a819fbed 736,56 952,80
+rect $classTruthTableDiskManager.html#d654151d19cc5f91b92e6b6ef831873b 724,104 964,128
+rect $classForbiddenPatternDiskManager.html#fd304a271e73756dbd3e08d672205450 713,202 974,226
+rect $classRuleDiskManager.html#51f0b9be377a945fe310baa947aee995 745,250 942,274

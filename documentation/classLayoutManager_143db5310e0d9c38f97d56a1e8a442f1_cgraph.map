@@ -1,0 +1,15 @@
+base referer
+rect $classLayoutView.html#05d48d7881ddc4ea02bc8daf1f14acf5 265,104 449,128
+rect $classLayoutView.html#7ee0e539d7b2d9fca5b49f0130575f31 269,152 445,176
+rect $classLayoutManager.html#5fda3ab274ef90db70c392fe0976cef1 258,200 456,224
+rect $classLayoutView.html#b04d9fb6c4c18a491748003fd0774147 264,272 450,296
+rect $classLayoutCanvas.html#8c4d81096ec07f728166582d0cab6257 530,104 712,128
+rect $classLayoutCanvas.html#3d313ea8071f0b3d352834c8c0902b10 810,8 954,32
+rect $classLayoutCanvas.html#6668c6dee5887152e665796197a86dc8 796,56 969,80
+rect $classLayoutCanvas.html#d449421e49b354a62212a740be9fb2ae 798,104 966,128
+rect $classLayoutCanvas.html#d8dee0dcdadf5e0731a3624731556757 804,152 961,176
+rect $classLayoutCanvas.html#606665e3f94ac813c8f530f3650500dd 788,200 977,224
+rect $classLayoutCanvas.html#4163b107cab4e12b24322e3934ae7731 509,152 733,176
+rect $classTruthTableManager.html#2e2877a9461e21a2af3e07f17f586393 521,200 721,224
+rect $classTruthTableManager.html#6f65cca5feb648366ab5e1a00cfee2f7 516,248 726,272
+rect $classLayoutCanvas.html#5df064fb69ba57ff696537c8346e0b43 504,296 738,320

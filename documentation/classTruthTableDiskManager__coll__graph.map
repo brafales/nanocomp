@@ -1,0 +1,5 @@
+base referer
+rect $classTruthTableManager.html 109,100 248,124
+rect $classMainController.html 212,190 318,214
+rect $classTruthTableView.html 18,190 133,214
+rect $classFileManagerView.html 256,9 378,33

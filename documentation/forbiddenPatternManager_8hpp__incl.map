@@ -1,0 +1,6 @@
+base referer
+rect $forbiddenPatternView_8hpp.html 529,14 705,38
+rect $forbiddenPattern_8hpp.html 543,62 690,86
+rect $fileManagerView_8hpp.html 778,161 925,185
+rect $forbiddenPatternDiskManager_8hpp.html 505,161 729,185
+rect $mainController_8hpp.html 550,209 683,233

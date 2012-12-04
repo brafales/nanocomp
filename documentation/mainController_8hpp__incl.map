@@ -1,0 +1,8 @@
+base referer
+rect $nanoFrame_8hpp.html 462,12 577,36
+rect $ruleManager_8hpp.html 870,186 993,210
+rect $fileManagerView_8hpp.html 1080,250 1226,274
+rect $layoutManager_8hpp.html 648,337 784,361
+rect $truthTableManager_8hpp.html 852,313 1012,337
+rect $forbiddenPatternManager_8hpp.html 833,361 1030,385
+rect $simulationManager_8hpp.html 440,262 600,286

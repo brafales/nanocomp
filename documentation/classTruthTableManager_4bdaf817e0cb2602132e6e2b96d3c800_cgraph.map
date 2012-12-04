@@ -1,0 +1,7 @@
+base referer
+rect $classTruthTableManager.html#6d5bb3f5014af4fb97d6cb69cfbcb9ca 254,8 475,32
+rect $classTruthTableView.html#c8db3ab157b08deb572f248094c4e121 271,56 458,80
+rect $classTruthTableManager.html#e2482c041c2f1a1e85bdb98b94e9c8be 267,104 462,128
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 537,8 753,32
+rect $classFileManagerView.html#df632316c656ea972020e81716d75ce4 531,80 758,104
+rect $classTruthTableDiskManager.html#d654151d19cc5f91b92e6b6ef831873b 525,128 765,152

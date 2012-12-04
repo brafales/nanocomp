@@ -1,0 +1,8 @@
+base referer
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 241,56 457,80
+rect $classRuleManager.html#ca5eeeedae2ddf61a17d97f695a3eae2 258,104 440,128
+rect $classLayoutManager.html#b947e691618bfa18e4113caa0dab0f65 506,56 730,80
+rect $classLayoutView.html#4a7e0bb638fcb5e0df2ede0a5d152fb0 780,8 1017,32
+rect $classLayoutView.html#74b42a281c84976c68695d800c788fa9 784,56 1013,80
+rect $classRuleView.html#c33e6c9a61c6f25802a40af1f479a133 540,104 697,128
+rect $classLayoutCanvas.html#bc91c37963246b46e79cc35e98e02926 820,104 977,128

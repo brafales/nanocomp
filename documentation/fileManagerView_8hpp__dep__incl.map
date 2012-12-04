@@ -1,0 +1,6 @@
+base referer
+rect $fileManagerView_8cpp.html 480,8 874,32
+rect $forbiddenPatternManager_8hpp.html 453,106 901,130
+rect $mainController_8hpp.html 949,106 1333,130
+rect $ruleManager_8hpp.html 1401,82 1772,106
+rect $truthTableManager_8hpp.html 1382,130 1790,154

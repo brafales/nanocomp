@@ -1,0 +1,6 @@
+base referer
+rect $rule_8hpp.html 469,8 538,32
+rect $ruleView_8hpp.html 454,56 553,80
+rect $fileManagerView_8hpp.html 626,154 773,178
+rect $ruleDiskManager_8hpp.html 430,154 577,178
+rect $mainController_8hpp.html 437,202 570,226

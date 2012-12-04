@@ -1,0 +1,7 @@
+base referer
+rect $classMainController.html#a5027fe553483d55ebc98fedc42d1c1e 301,8 517,32
+rect $classMainController.html#fd2312bd02f88968b901035d99af3046 313,56 505,80
+rect $classForbiddenPatternManager.html#e3d3fe2d749dc93b46af76cdf0153213 282,104 536,128
+rect $classForbiddenPatternView.html#9164f2b5b4cef8ec56ac737ed9f81016 302,152 516,176
+rect $classForbiddenPatternView.html#db78e3f26723025b99de39a14ad24541 293,200 525,224
+rect $classForbiddenPatternManager.html#77be7897b11107179626ee0f831381b3 286,248 532,272

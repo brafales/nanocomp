@@ -1,0 +1,4 @@
+base referer
+rect $structcoordinate.html 8,113 90,137
+rect $classRule.html 114,113 162,137
+rect $classGrid.html 116,9 161,33

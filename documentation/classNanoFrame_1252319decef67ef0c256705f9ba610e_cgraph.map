@@ -1,0 +1,7 @@
+base referer
+rect $classMainController.html#c19e647c6858cb245831f34d4b0fce7b 206,104 350,128
+rect $classLayoutManager.html#3ba5d2048a2261427d1437e21a6cf3fa 411,8 633,32
+rect $classTruthTableManager.html#c26ec5ccf78ad1938202dd38c370f193 419,56 625,80
+rect $classForbiddenPatternManager.html#a2b0dfa60b940a38ed197e33a67466bb 399,104 645,128
+rect $classRuleManager.html#101bb35247151d508a5f9583f10042c4 438,152 606,176
+rect $classMainController.html#06797caf7960caaa8276b30ee488eb1d 450,200 594,224

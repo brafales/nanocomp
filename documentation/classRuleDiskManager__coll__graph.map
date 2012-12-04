@@ -1,0 +1,5 @@
+base referer
+rect $classRuleManager.html 110,100 211,124
+rect $classRuleView.html 37,190 114,214
+rect $classMainController.html 185,190 291,214
+rect $classFileManagerView.html 219,9 342,33

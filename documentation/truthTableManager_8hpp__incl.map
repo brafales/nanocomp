@@ -1,0 +1,6 @@
+base referer
+rect $truthTableView_8hpp.html 492,12 628,36
+rect $truthTable_8hpp.html 721,112 828,136
+rect $fileManagerView_8hpp.html 701,162 848,186
+rect $truthTableDiskManager_8hpp.html 466,212 653,236
+rect $mainController_8hpp.html 493,260 626,284

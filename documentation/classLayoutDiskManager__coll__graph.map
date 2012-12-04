@@ -1,0 +1,9 @@
+base referer
+rect $classLayoutManager.html 279,100 394,124
+rect $classMainController.html 443,190 550,214
+rect $classLayoutView.html 198,190 289,214
+rect $classTruthTableManager.html 378,281 517,305
+rect $classRuleManager.html 77,281 178,305
+rect $classForbiddenPatternManager.html 703,281 879,305
+rect $classFileManagerView.html 466,9 589,33
+rect $classLayoutConfig.html 303,9 402,33

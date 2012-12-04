@@ -1,0 +1,11 @@
+base referer
+rect $classSimulation.html 469,30 552,54
+rect $classResultsView.html 462,162 558,186
+rect $classMainController.html 457,304 564,328
+rect $classSimulationView.html 753,56 865,80
+rect $classGrid.html 29,200 74,224
+rect $classTruthTableManager.html 740,200 878,224
+rect $classLayoutManager.html 1029,369 1144,393
+rect $classRuleManager.html 758,342 860,366
+rect $classForbiddenPatternManager.html 721,484 897,508
+rect $classTruthTable.html 9,248 94,272
